@@ -1,7 +1,7 @@
 # Rails5 Blog using Postgres + Vagrant
 ## MEI-IoT Software Engineering
 
-A simple academic demo about how to use Vagrant in rails development. The project is simply an adaptation of the Rails5 Blog tutorial (from the getting started guide), this time using Postgres and Bootstrap.
+A simple academic demo on how to use Vagrant in rails development. The project is simply an adaptation of the Rails5 Blog tutorial (from the getting started guide), this time using Postgres and Bootstrap.
 
 To start, with vagrant, virtualbox and git installed:
 ```
@@ -12,7 +12,7 @@ vagrant ssh
 cd /vagrant
 bundle install
 rails db:setup
-rails server –bind 0.0.0.0
+rails server -–bind 0.0.0.0
 ```
 
 
